@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>النقاط</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  max-width: 900px;
+  width: 90%;
+  margin: 40px auto;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+  padding: 30px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffdd57;
+  text-shadow: 0 0 10px #ffdd57;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffd966;
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding: 10px 25px;
+  border: 2px solid #ffd966;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 8px #ffd966;
+}
+
+nav a:hover {
+  background: #ffd966;
+  color: #3b1e00;
+  box-shadow: 0 0 18px #ffd966;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 25px rgba(255, 221, 87, 0.5);
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: center;
+}
+
+th {
+  background: #ffdd57;
+  color: #3b1e00;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+tbody tr {
+  background: rgba(255, 221, 87, 0.15);
+  color: #f0f0f0;
+  transition: background 0.3s ease;
+  cursor: default;
+}
+
+tbody tr:hover {
+  background: rgba(255, 221, 87, 0.35);
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+ul li {
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 221, 87, 0.3);
+  cursor: default;
+  transition: background 0.3s ease;
+}
+
+ul li:hover {
+  background: rgba(255, 221, 87, 0.35);
+}
+
+footer {
+  margin: 30px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #ffd966;
+  text-shadow: 0 0 5px #ffd966;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>النقاط</h1>
+        <nav>
+            <a href="index.html">الرئيسية</a>
+            <a href="teams.html">أسماء الفرق</a>
+            <a href="scorers.html">الهدافين</a>
+        </nav>
+        <table>
+            <thead>
+                <tr><th>اللاعب</th><th>النقاط</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>حسن ناصر</td><td>4</td></tr>
+                <tr><td>يوسف حجري</td><td>4</td></tr>
+                <tr><td>وليد الجوهري</td><td>3</td></tr>
+                <tr><td>زياد لؤي</td><td>0</td></tr>
+            </tbody>
+        </table>
+    </div>
+    <footer>حقوق النشر &copy; 2025</footer>
+</body>
+</html>
