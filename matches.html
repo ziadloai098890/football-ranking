@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>المباريات</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: #e0e0e0;
+    margin: 0; padding: 0;
+  }
+  .container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #1e293b;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #2563eb;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #60a5fa;
+  }
+  nav a {
+    color: #60a5fa;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav a:hover {
+    color: #93c5fd;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  th, td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #334155;
+    text-align: center;
+  }
+  th {
+    background: #2563eb;
+    color: white;
+  }
+  .past {
+    background-color: #334155;
+  }
+  .future {
+    background-color: #1e293b;
+    color: #60a5fa;
+    font-weight: bold;
+  }
+  footer {
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    color: #64748b;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>المباريات</h1>
+  <nav>
+    <a href="index.html">الرئيسية</a>
+    <a href="teams.html">أسماء الفرق</a>
+    <a href="scorers.html">الهدافين</a>
+    <a href="points.html">النقاط</a>
+    <a href="matches.html">المباريات</a>
+  </nav>
+
+  <table>
+    <thead>
+      <tr><th>الفريق الأول</th><th>النتيجة / الحالة</th><th>الفريق الثاني</th></tr>
+    </thead>
+    <tbody>
+      <tr class="past"><td>فريق رشيد الحامدي</td><td>5 - 4</td><td>فريق وليد الجوهري</td></tr>
+      <tr class="past"><td>فريق محمد امين</td><td>6 - 4</td><td>فريق زياد لؤي</td></tr>
+      <tr class="past"><td>فريق رشيد الحامدي</td><td>1 - 1</td><td>فريق محمد امين</td></tr>
+      <tr class="past"><td>فريق وليد الجوهري</td><td>3 - 1</td><td>فريق زياد لؤي</td></tr>
+
+      <tr class="future"><td>فريق محمد امين</td><td>قادمة</td><td>فريق وليد الجوهري</td></tr>
+      <tr class="future"><td>فريق رشيد الحامدي</td><td>قادمة</td><td>فريق زياد لؤي</td></tr>
+    </tbody>
+  </table>
+</div>
+<footer>حقوق النشر &copy; 2025</footer>
+</body>
+</html>
